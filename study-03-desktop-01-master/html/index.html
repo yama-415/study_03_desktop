@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>eelテスト</title>
+</head>
+<body>
+		<h1>eelテスト</h1>
+		<script type="text/javascript" src="./eel.js"></script>
+		<script>
+				search.addEventListener('click', () => {
+
+				})
+
+				eel.expose(view_log_js)
+				function view_log_js(text){
+				}
+		</script>
+		<!-- <label for="username">お名前</label>
+		<input id="username" type="text" name="username"> -->
+
+		<form action=".search.py" method="post">
+			<label>検索ワード</label>
+			<input type="search" name="search" placeholder="キーワードを入力" required>
+			<input type="submit" name="submit" value="検索" required>
+		</form>
+
+		<textarea id="result" name="result"></textarea>
+</body>
+
+</html>
